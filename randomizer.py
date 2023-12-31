@@ -24,7 +24,7 @@ dict_dfs = read_data(sheet_id, sheet_names)
 
     
 st.title('Qual é a boa da semana?')
-st.subheader(f'Para a semana de {week_start.strftime('%d/%m/%Y')}, os conteúdos escolhidos serão:')
+st.subheader(f"Para a semana de {week_start.strftime('%d/%m/%Y')}, os conteúdos escolhidos serão:")
 
 
 if st.button('Escolher', type='primary'):
